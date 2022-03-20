@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* { 
+font-family: 'Roboto', sans-serif;
+}
+body { 
+    font-size: 18px;
+    font-weight: 400;
+    background: rgb(190, 185, 185) ;
+}
+
+.card {
+background-color: rgb(232, 234, 241);
+border: 10px solid rgb(240, 233, 233);
+border-radius: 10px;
+margin-bottom: 10px; /* отступ нормальный */
+
+padding: 20px 20px;
+
+} 
+
+
+.conteiner {
+    max-width: 1000px; /* ширина рабочей зоны */
+    margin: auto;  /* автоматическое значение по бокам */
+    } 
+
+    
+
+
+
+.end {background: rgb(170, 167, 167);
+    border: 10px solid rgb(170, 167, 167);
+    border-radius: 10px;
+    border-bottom-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    margin-bottom: 100px; /* отступ нормальный */
+
+    padding-left: 20px; /* отступ с лева */
+
+
+
+}
+ .pad { padding: 5px 100px;
+    background: rgb(232, 234, 241);
+    border: 10px solid rgb(232, 234, 241);
+    border-radius: 10px;
+    border-top-left-radius: 20px ;
+    border-top-right-radius: 20px ;
+} 
+
+.avatar{
+    box-shadow: 10px solid rgb(247, 247, 247);  /* прозрачный борт */
+    border-radius: 10px;
+}
